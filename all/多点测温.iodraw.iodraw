@@ -7,7 +7,7 @@
         <mxCell id="vDib773NSBkOR5P6PPJv-55" value="多点测温技术路线图" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="343" y="90" width="204" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="vDib773NSBkOR5P6PPJv-56" value="图像与温度数据获取" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="vDib773NSBkOR5P6PPJv-56" value="图像与温度数据获取" style="rhombus;strokeWidth=2;whiteSpace=wrap;direction=south;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="349" y="188" width="192" height="192" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-57" value="获取红外和RGB图像" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
@@ -96,13 +96,6 @@
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-85" value="解决实时性及所有问题" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1414" y="1422" width="220" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="vDib773NSBkOR5P6PPJv-87" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.7;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="vDib773NSBkOR5P6PPJv-56" target="vDib773NSBkOR5P6PPJv-57">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="143" y="406" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-88" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="vDib773NSBkOR5P6PPJv-57" target="vDib773NSBkOR5P6PPJv-58">
           <mxGeometry relative="1" as="geometry">
