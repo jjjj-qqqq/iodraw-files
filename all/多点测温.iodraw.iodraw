@@ -1,104 +1,101 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="24.7.17">
   <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
-    <mxGraphModel dx="2977" dy="1871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2977" dy="3111.5" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="vDib773NSBkOR5P6PPJv-55" value="多点测温技术路线图" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f8cecc;strokeColor=#51b8a3;" vertex="1" parent="1">
-          <mxGeometry x="337" y="80" width="204" height="48" as="geometry" />
+          <mxGeometry width="204" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-56" value="图像与温度数据获取" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="349" y="188" width="192" height="192" as="geometry" />
+          <mxGeometry y="108" width="192" height="192" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-57" value="获取红外和RGB图像" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="43" y="527" width="201" height="48" as="geometry" />
+          <mxGeometry y="360" width="201" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-58" value="使用海康摄像头" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="57" y="777" width="172" height="48" as="geometry" />
+          <mxGeometry y="468" width="172" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-59" value="获取256x256红外温度矩阵数据 (CSV格式)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="932" width="246" height="66" as="geometry" />
+          <mxGeometry y="576" width="246" height="66" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-60" value="温度数据处理与放大" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="349" y="455" width="192" height="192" as="geometry" />
+          <mxGeometry y="702" width="192" height="192" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-61" value="Python脚本处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="358" y="777" width="173" height="48" as="geometry" />
+          <mxGeometry y="954" width="173" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-62" value="将256x256温度CSV矩阵转换为1280x1280温度CSV矩阵" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="316" y="932" width="257" height="66" as="geometry" />
+          <mxGeometry y="1062" width="257" height="66" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-63" value="特定点温度标注与实时更新" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1002" y="431" width="240" height="240" as="geometry" />
+          <mxGeometry y="1188" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-64" value="选择标注库: Mediapipe" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="594" y="777" width="224" height="48" as="geometry" />
+          <mxGeometry y="1488" width="224" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-65" value="使用Mediapipe FaceMesh模型" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="623" y="932" width="165" height="66" as="geometry" />
+          <mxGeometry y="1596" width="165" height="66" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-66" value="识别468个人脸关键点" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="599" y="1065" width="213" height="48" as="geometry" />
+          <mxGeometry y="1722" width="213" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-67" value="确定眉毛特征点" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="620" y="1190" width="172" height="48" as="geometry" />
+          <mxGeometry y="1830" width="172" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-68" value="计算两个眉毛的中心点" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="596" y="1306" width="220" height="48" as="geometry" />
+          <mxGeometry y="1938" width="220" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-69" value="将1280x1280温度矩阵1:1映射到眉间" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="579" y="1413" width="254" height="66" as="geometry" />
+          <mxGeometry y="2046" width="254" height="66" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-70" value="实现每秒更新一次温度显示" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="580" y="1529" width="252" height="48" as="geometry" />
+          <mxGeometry y="2172" width="252" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-71" value="弯路与问题解决" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1045" y="721" width="160" height="160" as="geometry" />
+          <mxGeometry y="2280" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-72" value="弯路: 先用人脸口罩模型检测框" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="871" y="932" width="236" height="66" as="geometry" />
+          <mxGeometry y="2500" width="236" height="66" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-73" value="问题: 检测框中心点上三分之二处标温度" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="863" y="1048" width="252" height="84" as="geometry" />
+          <mxGeometry y="2626" width="252" height="84" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-74" value="结果: 无法实现一秒更新, 检测框跳变" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="870" y="1181" width="237" height="66" as="geometry" />
+          <mxGeometry y="2770" width="237" height="66" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-75" value="温度值不准确问题" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1162" y="940" width="188" height="48" as="geometry" />
+          <mxGeometry y="2896" width="188" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-76" value="原因: 摄像头视差" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1165" y="1065" width="183" height="48" as="geometry" />
+          <mxGeometry y="3004" width="183" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-77" value="解决方案: 手动矫正" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1157" y="1190" width="199" height="48" as="geometry" />
+          <mxGeometry y="3112" width="199" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-78" value="方法: 旋转和平移温度矩阵" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1133" y="1306" width="247" height="48" as="geometry" />
+          <mxGeometry y="3220" width="247" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-79" value="实现: 温度值准确显示" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1149" y="1422" width="215" height="48" as="geometry" />
+          <mxGeometry y="3328" width="215" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-80" value="未来优化方向" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1451" y="729" width="144" height="144" as="geometry" />
+          <mxGeometry y="3436" width="144" height="144" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-81" value="直接在C++中实现" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1432" y="940" width="182" height="48" as="geometry" />
+          <mxGeometry y="3640" width="182" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-82" value="跳过Python处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1437" y="1065" width="173" height="48" as="geometry" />
+          <mxGeometry y="3748" width="173" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-83" value="直接获取RGB和红外数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1407" y="1190" width="233" height="48" as="geometry" />
+          <mxGeometry y="3856" width="233" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-84" value="手动搭建网络模型 (无需外部库)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="1297" width="188" height="66" as="geometry" />
+          <mxGeometry y="3964" width="188" height="66" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-85" value="解决实时性及所有问题" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1414" y="1422" width="220" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="vDib773NSBkOR5P6PPJv-150" value="Start" style="ellipse" vertex="1" parent="1">
-          <mxGeometry x="800" y="850" width="80" height="30" as="geometry" />
+          <mxGeometry y="4090" width="220" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
