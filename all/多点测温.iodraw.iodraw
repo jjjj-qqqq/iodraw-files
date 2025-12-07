@@ -29,7 +29,7 @@
           <mxGeometry x="316" y="932" width="257" height="66" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-63" value="特定点温度标注与实时更新" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1002" y="431" width="240" height="240" as="geometry" />
+          <mxGeometry x="1005" y="188" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-64" value="选择标注库: Mediapipe" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="594" y="777" width="224" height="48" as="geometry" />
