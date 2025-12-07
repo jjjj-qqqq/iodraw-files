@@ -8,7 +8,7 @@
           <mxGeometry x="410" y="80" width="377" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-56" value="图像与温度数据获取" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="349" y="188" width="192" height="192" as="geometry" />
+          <mxGeometry x="502.5" y="150" width="192" height="192" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-57" value="获取红外和RGB图像" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="43" y="527" width="201" height="48" as="geometry" />
@@ -107,11 +107,6 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vDib773NSBkOR5P6PPJv-90" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="vDib773NSBkOR5P6PPJv-56" target="vDib773NSBkOR5P6PPJv-60">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-91" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="vDib773NSBkOR5P6PPJv-60" target="vDib773NSBkOR5P6PPJv-61">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
@@ -120,13 +115,6 @@
         <mxCell id="vDib773NSBkOR5P6PPJv-92" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="vDib773NSBkOR5P6PPJv-61" target="vDib773NSBkOR5P6PPJv-62">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vDib773NSBkOR5P6PPJv-93" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.59;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="vDib773NSBkOR5P6PPJv-56" target="vDib773NSBkOR5P6PPJv-63">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1122" y="406" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-94" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.67;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="vDib773NSBkOR5P6PPJv-63" target="vDib773NSBkOR5P6PPJv-64">
