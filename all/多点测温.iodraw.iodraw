@@ -97,16 +97,6 @@
         <mxCell id="vDib773NSBkOR5P6PPJv-85" value="解决实时性及所有问题" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1414" y="1422" width="220" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="vDib773NSBkOR5P6PPJv-106" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="vDib773NSBkOR5P6PPJv-75" target="vDib773NSBkOR5P6PPJv-76">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vDib773NSBkOR5P6PPJv-107" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="vDib773NSBkOR5P6PPJv-76" target="vDib773NSBkOR5P6PPJv-77">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-108" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="vDib773NSBkOR5P6PPJv-77" target="vDib773NSBkOR5P6PPJv-78">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
