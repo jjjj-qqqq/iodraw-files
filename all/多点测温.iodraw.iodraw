@@ -7,7 +7,7 @@
         <mxCell id="vDib773NSBkOR5P6PPJv-55" value="多点测温技术路线图" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="343" y="90" width="204" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="vDib773NSBkOR5P6PPJv-56" value="图像与温度数据获取" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="vDib773NSBkOR5P6PPJv-56" value="图像与温度数据获取" style="rhombus;strokeWidth=2;whiteSpace=wrap;direction=south;" vertex="1" parent="1">
           <mxGeometry x="349" y="188" width="192" height="192" as="geometry" />
         </mxCell>
         <mxCell id="vDib773NSBkOR5P6PPJv-57" value="获取红外和RGB图像" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
